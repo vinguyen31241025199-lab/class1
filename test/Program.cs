@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibrary1
+namespace Class1
 {
     public class Record
     {
@@ -80,3 +80,20 @@ namespace ClassLibrary1
     }
 }
 //test
+
+namespace Class2
+{
+    public class Node
+    {
+        public int Data;
+        public Node LeftNode;
+        public Node RightNode;
+
+        public Node(int data)
+        {
+            Data = data;
+            LeftNode = null;
+            RightNode = null;
+        }
+    }
+}
